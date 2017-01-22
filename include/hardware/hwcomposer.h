@@ -305,7 +305,7 @@ typedef struct hwc_layer_1 {
      * For 32-bit mode, this struct is 96 bytes, and needs to be padded as such
      * to maintain binary compatibility.
      */
-    uint8_t reserved[96 - 84];
+    uint8_t reserved[104 - 84];
 #endif
 
 } hwc_layer_1_t;
